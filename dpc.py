@@ -5,7 +5,6 @@ from scipy.io import loadmat
 from matplotlib import pyplot as plt
 from sklearn.metrics import normalized_mutual_info_score
 from sklearn.metrics import adjusted_rand_score
-from sklearn.metrics.pairwise import euclidean_distances
 
 def autoselect_dc(max_id, max_dis, min_dis, distances):
     dc = (max_dis + min_dis) / 2
